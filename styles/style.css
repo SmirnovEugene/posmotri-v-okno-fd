@@ -180,6 +180,7 @@ ol {
 .search-form__fieldset {
   border: none;
 }
+
 .search-form__fieldset-title {
   margin-bottom: 7px;
   font-weight: 400;
@@ -311,6 +312,7 @@ ol {
   width: 98%;
   margin: 0px auto 3px;
 }
+
 /* visually-hidden */
 
 .visually-hidden {
