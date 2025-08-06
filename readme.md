@@ -1,1 +1,0 @@
-https://github.com/SmirnovEugene/posmotri-v-okno-fd.git
