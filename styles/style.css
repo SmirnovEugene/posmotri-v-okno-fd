@@ -268,12 +268,12 @@ ol {
 /* блок title */
 
 .title {
+  align-self: center;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
-  align-self: center;
 }
 
 .content__accent {
@@ -297,8 +297,8 @@ ol {
 }
 
 .button:active {
-  background-color: #545050;
   text-decoration: none;
+  background-color: #545050;
 }
 
 .button:focus {
@@ -311,9 +311,9 @@ ol {
 }
 
 .more-button {
-  padding: 6px 0;
   width: 98%;
   margin: 0px auto 3px;
+  padding: 6px 0;
 }
 
 /* visually-hidden */
