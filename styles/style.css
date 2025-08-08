@@ -62,12 +62,11 @@ ol {
   align-items: end;
   gap: 30px;
   width: 100%;
-  padding-bottom: 10px;
 }
 
 .content__details {
   display: grid;
-  grid-template-rows: 210px 298px;
+  grid-template-rows: 204px 304px;
   gap: 26px;
 }
 
@@ -97,6 +96,8 @@ ol {
 .content__video-card-thumbnail {
   min-width: 194px;
   height: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__card-link {
@@ -129,7 +130,7 @@ ol {
 .content__video-card-title {
   margin-bottom: 6px;
   overflow: hidden;
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -142,7 +143,6 @@ ol {
   display: -webkit-box;
   overflow: hidden;
   line-height: 0.9;
-  letter-spacing: 1px;
   text-overflow: ellipsis;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -155,6 +155,7 @@ ol {
   flex-direction: column;
   gap: 20px;
   width: inherit;
+  padding-bottom: 5px;
 }
 
 .result__video-container {
@@ -167,6 +168,7 @@ ol {
   width: inherit;
   height: inherit;
   object-fit: cover;
+  object-position: center;
 }
 
 /* блок search-form */
@@ -203,8 +205,8 @@ ol {
 }
 
 .search-form__textfield {
-  width: 225px;
-  border: 2px solid #fff;
+  min-width: 225px;
+  border: 1px solid #fff;
   border-right: none;
   border-left: none;
   color: #fff;
@@ -266,7 +268,7 @@ ol {
 /* блок title */
 
 .title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
